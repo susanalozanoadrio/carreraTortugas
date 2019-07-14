@@ -13,6 +13,7 @@ class Circuito():
         self.__screen = turtle.Screen()
         self.__screen.setup(width, height)
         self.__screen.bgcolor('lightgray')
+        
         self.__startLine = -width/2 + 20
         self.__finishLine = width/2 - 20
         
